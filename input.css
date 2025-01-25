@@ -26,4 +26,12 @@
    .hero-button {
         @apply inline-block rounded-md px-4 py-2 text-sm text-white hover:bg-white shadow-sm hover:text-slate-800 focus:relative;
     }
+
+    .text-links-hover {
+        @apply hover:text-yellow-200 cursor-pointer block mb-2; 
+    }
+
+    .text-color-custom {
+        @apply text-slate-200;
+    }
 }
